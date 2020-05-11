@@ -8,7 +8,7 @@ JS library for [Postpay](https://postpay.io) User Interface (UI).
 
 Postpay UI helps you improve conversion and average value per cart.
 
-Educating customers about Postpay and adding instalment plan messaging throughout the conversion funnel will positively affect customers’ purchasing decision, and naturally increasing sales.
+Educating customers about Postpay and adding instalment plan messaging throughout the conversion funnel will positively affect customers' purchasing decisions, and organically increase sales.
 
 ## Documentation
 
