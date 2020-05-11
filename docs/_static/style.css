@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'greycliff';
+  src: url('fonts/greycliff-cf-medium.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'greycliff-bold';
+  src: url('fonts/greycliff-cf-bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+body,
+.body {
+  font-family: 'greycliff';
+  background: url(images/grid.png) repeat-x;
+  background-attachment: fixed;
+}
+
+div.body {
+  color: #333;
+}
+
+div.body h1,
+div.body h2,
+div.body h3,
+div.body h4,
+div.body h5,
+div.body h6 {
+  font-family: 'greycliff-bold';
+}
+
+div.body p,
+div.body dd,
+div.body li,
+div.body blockquote {
+  hyphens: none;
+}
+
+fieldset {
+  border: 1px solid #eee;
+  background-color: #fdfdfd;
+  border-radius: 4px;
+  padding: 7px 30px;
+  margin: 15px 0px;
+}
+
+#in-context-checkout fieldset a {
+  display: block;
+  text-align: center;
+}
+
+legend {
+  color: #c6255f;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.section a {
+  font-family: 'greycliff-bold';
+}
+
+.section a:hover {
+  color: #575756;
+}
+
+.section a,
+div.sphinxsidebar a.current,
+div.sphinxsidebar a:hover {
+  color: #8abbd5;
+}
+
+div.sphinxsidebar a,
+div.sphinxsidebar a:hover {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+div.sphinxsidebar a.current,
+div.sphinxsidebar a:hover {
+  font-weight: bold;
+}
+
+pre,
+tt,
+code {
+  font-size: 0.85em;
+}
+
+.highlight pre {
+  border: 1px solid #eee;
+  background-color: #fdfdfd;
+  border-radius: 4px;
+}
+
+.highlight .nt {
+  color: #c6255f;
+}
+
+.highlight .s,
+.highlight .s1  {
+  color: #fa82a0;
+}
+
+.highlight .nv {
+  color: #333;
+}
+
+.highlight .na,
+.highlight .nx {
+  color: #4070a0;
+}
+
+.highlight .nb {
+  color: #1f374f;
+}
+
+.highlight .k {
+  color: #007020;
+}
+
+code {
+  color: #fa82a0;
+  word-break: normal;
+  hyphens: none;
+  background-color: #F8F8F8;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  padding: 2px 4px;
+}
+
+div#searchbox h3 {
+    text-transform: capitalize;
+}
+
+div.sphinxsidebar ul ul {
+    list-style: circle;
+}
+
+@media screen and (max-width: 1008px) {
+  div.sphinxsidebar {
+    display: none;
+  }
+
+  div.document {
+    width: 100%!important;
+  }
+
+  div.highlight pre {
+    margin-right: -30px;
+  }
+}
+
+table.docutils,
+table.docutils td,
+table.docutils th {
+    border: none;
+}
+
+table.docutils tr:nth-child(odd) > td {
+  background-color: #f8f8f8;
+}
+
+table.docutils tr:nth-child(even) > td {
+  background-color: #fdfdfd;
+}
+
+#instalment-plan .postpay-widget,
+#instalment-plan .payment-method {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#instalment-plan .payment-method li {
+  list-style: none;
+}
+
+#instalment-plan .payment-method img {
+  vertical-align: middle;
+  margin: -2px 0 0 .5em;
+  max-width: 50px;
+}

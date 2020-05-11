@@ -1,0 +1,14 @@
+{% extends "!layout.html" %}
+
+{%- block extrahead %} 
+<script>
+  jQuery(document).ready(
+    function($) {
+      postpay.init({
+        merchantId: '{{ merchant_id }}',
+        sandbox: true
+      });
+    }
+  );
+</script>      
+{% endblock %}
