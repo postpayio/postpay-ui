@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/postpayio/postpay-ui/releases"><img src="https://img.shields.io/github/release/postpayio/postpay-ui.svg" alt="Latest Version" /></a> <a href="https://readthedocs.org/projects/postpay-ui/builds/"><img src="https://readthedocs.org/projects/postpay-ui/badge/" alt="Build Status" /></a>
+  <a href="https://github.com/postpayio/postpay-ui/releases"><img src="https://img.shields.io/github/release/postpayio/postpay-ui.svg" alt="Latest Version" /></a> <a href="https://ap-south-1.console.aws.amazon.com/codesuite/codebuild/projects/postpay-ui/"><img src="https://codebuild.ap-south-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiM0Y5UGdFWkxlbWdDTDFrUGoxZE56ZWFIamp3bzBzSExxS0U4Wnd3RFdCd3lHUFptTFowR3AwOGl2cG9ISHllbDMxU1pLU24vNmlETVplSjNWblNWMVUwPSIsIml2UGFyYW1ldGVyU3BlYyI6IkNPT1BSNGFTcEZCaERtemciLCJtYXRlcmlhbFNldFNlcmlhbCI6Mn0%3D&branch=master" alt="Build Status" /></a>
 </p>
 
 # Postpay SDK for UI
