@@ -180,3 +180,21 @@ table.docutils tr:nth-child(even) > td {
   margin: -2px 0 0 .5em;
   max-width: 50px;
 }
+
+.btn-postpay {
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'greycliff-bold';
+  width: 60%;
+  background-color: rgb(138, 187, 213);
+  color: white;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  border-color: rgb(138, 187, 213);
+  padding: 13px 15px;
+  margin: auto;
+  display: block;
+}
