@@ -25,6 +25,6 @@ In-Context Checkout makes it easier than ever to pay online using a modal window
     <embed>
       <fieldset>
         <legend>&lt;demo/&gt;</legend>
-        <button class="btn-postpay" onclick="postpay.checkout('{{ checkout_token }}');">Checkout</button>
+        <button class="btn-postpay" onclick="postpay.checkout('{token}');">Checkout</button>
       </fieldset>
     </embed>

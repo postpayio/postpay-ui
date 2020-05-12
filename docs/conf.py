@@ -59,7 +59,6 @@ html_js_files = [
 
 html_context = {
     'merchant_id': os.environ.get('MERCHANT_ID'),
-    'checkout_token': os.environ.get('CHECKOUT_TOKEN'),
 }
 
 html_show_sourcelink = False
