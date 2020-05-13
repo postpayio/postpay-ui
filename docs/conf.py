@@ -34,7 +34,7 @@ html_theme_options = {
     'fixed_sidebar': True,
     'github_user': 'postpayio',
     'github_repo': 'postpay-ui',
-    'github_banner': True,
+    'github_banner': False,
     'github_button': False,
     'github_type': 'star',
     'sidebar_list': '#8abbd5',
