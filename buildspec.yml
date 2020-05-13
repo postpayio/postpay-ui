@@ -4,12 +4,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - |
-        docker run --rm -i \
-          -v $PWD:/docs \
-          -e MERCHANT_ID=$MERCHANT_ID \
-          sphinxdoc/sphinx \
-          sphinx-build -b html docs build
+      - sphinx-build -b html ./docs ./build
   post_build:
     commands:
       - |
