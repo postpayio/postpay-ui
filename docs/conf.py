@@ -61,6 +61,7 @@ html_context = {
     'merchant_id': os.environ.get('MERCHANT_ID'),
 }
 
+add_module_names = False
+html_file_suffix = ''
 html_show_sourcelink = False
 html_show_sphinx = False
-add_module_names = False
