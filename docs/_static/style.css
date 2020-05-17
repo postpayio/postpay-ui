@@ -165,17 +165,17 @@ table.docutils tr:nth-child(even) > td {
   background-color: #fdfdfd;
 }
 
-#instalment-plan .postpay-widget,
-#instalment-plan .payment-method {
+#payment-summary .postpay-widget,
+#payment-summary .payment-method {
   width: 70%;
   margin: 0 auto;
 }
 
-#instalment-plan .payment-method li {
+#payment-summary .payment-method li {
   list-style: none;
 }
 
-#instalment-plan .payment-method img {
+#payment-summary .payment-method img {
   vertical-align: middle;
   margin: -2px 0 0 .5em;
   max-width: 50px;

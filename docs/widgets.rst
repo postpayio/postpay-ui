@@ -99,7 +99,7 @@ The element attributes determine which component displays:
       </fieldset>
     </embed>
 
-Instalment Plan
+Payment summary
 ---------------
 
 This widget is commonly used to display instalment plan info on the payment method selection.
@@ -110,7 +110,7 @@ Set ``data-hide-if-invalid`` to disable Postpay payment method in case it is not
 
     <div
       class="postpay-widget"
-      data-type="instalment-plan"
+      data-type="payment-summary"
       data-amount="{amount}"
       data-currency="{currency}"
       data-num-instalments="{numInstalments}"
