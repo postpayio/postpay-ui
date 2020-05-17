@@ -1,7 +1,7 @@
 In-context checkout
 ===================
 
-In-context checkout makes it easier than ever to pay online using a modal window. Customers never lose sight of your store during this seamless checkout. 
+**In-context checkout** makes it easier than ever to pay online using a modal window. Customers never lose sight of your store during this seamless checkout. 
 
 .. code-block:: html
 
