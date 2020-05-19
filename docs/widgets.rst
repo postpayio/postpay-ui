@@ -102,7 +102,7 @@ The element attributes determine which component displays:
 Payment summary
 ---------------
 
-This widget is commonly used to display instalment plan info on the payment method selection.
+This widget is commonly used to display the payment summary on the payment method selection.
 
 Set ``data-hide-if-invalid`` to disable Postpay payment method in case it is not available for the configured attributes, e.g. the total amount exceeds the maximum allowed.
 
@@ -161,7 +161,7 @@ Set ``data-hide-if-invalid`` to disable Postpay payment method in case it is not
 
         <div
           class="postpay-widget"
-          data-type="instalment-plan"
+          data-type="payment-summary"
           data-amount="48000"
           data-currency="AED"
           data-num-instalments="4"
