@@ -10,13 +10,12 @@ The element attributes determine which component displays:
 
 .. code-block:: html
 
-    <div
-      class="postpay-widget"
-      data-type="product"
-      data-amount="{amount}"
-      data-currency="{currency}"
-      data-num-instalments="{numInstalments}"
-    ></div>
+    <div class="postpay-widget"
+         data-type="product"
+         data-amount="{amount}"
+         data-currency="{currency}"
+         data-num-instalments="{numInstalments}">
+    </div>
 
 .. list-table::
     :header-rows: 1
@@ -40,13 +39,12 @@ The element attributes determine which component displays:
     <embed>
       <fieldset>
         <legend>&lt;demo/&gt;</legend>
-        <div
-          class="postpay-widget"
-          data-type="product"
-          data-amount="24000"
-          data-currency="AED"
-          data-num-instalments="4"
-        ></div>
+        <div class="postpay-widget"
+             data-type="product"
+             data-amount="24000"
+             data-currency="AED"
+             data-num-instalments="4">
+        </div>
       </fieldset>
     </embed>
 
@@ -59,13 +57,12 @@ The element attributes determine which component displays:
 
 .. code-block:: html
 
-    <div
-      class="postpay-widget"
-      data-type="cart"
-      data-amount="{amount}"
-      data-currency="{currency}"
-      data-num-instalments="{numInstalments}"
-    ></div>
+    <div class="postpay-widget"
+         data-type="cart"
+         data-amount="{amount}"
+         data-currency="{currency}"
+         data-num-instalments="{numInstalments}">
+    </div>
 
 .. list-table::
     :header-rows: 1
@@ -89,13 +86,12 @@ The element attributes determine which component displays:
     <embed>
       <fieldset>
         <legend>&lt;demo/&gt;</legend>
-        <div
-          class="postpay-widget"
-          data-type="cart"
-          data-amount="48000"
-          data-currency="AED"
-          data-num-instalments="4"
-        ></div>
+        <div class="postpay-widget"
+             data-type="cart"
+             data-amount="48000"
+             data-currency="AED"
+             data-num-instalments="4">
+        </div>
       </fieldset>
     </embed>
 
@@ -108,15 +104,14 @@ Set ``data-hide-if-invalid`` to disable Postpay payment method in case it is not
 
 .. code-block:: html
 
-    <div
-      class="postpay-widget"
-      data-type="payment-summary"
-      data-amount="{amount}"
-      data-currency="{currency}"
-      data-num-instalments="{numInstalments}"
-      data-country="{country}"
-      data-hide-if-invalid="{selector}"
-    ></div>
+    <div class="postpay-widget"
+         data-type="payment-summary"
+         data-amount="{amount}"
+         data-currency="{currency}"
+         data-num-instalments="{numInstalments}"
+         data-country="{country}"
+         data-hide-if-invalid="{selector}">
+    </div>
 
 .. list-table::
     :header-rows: 1
@@ -133,7 +128,7 @@ Set ``data-hide-if-invalid`` to disable Postpay payment method in case it is not
       - `ISO 4217 <https://en.wikipedia.org/wiki/ISO_4217>`__ currency code.
     * - data-num-instalments
       - Integer
-      - The number of instalments. Postpay sets an **optimal number of instalments** by default.
+      - The number of instalments. Postpay sets an **optimal number of instalments** by default. Set ``1`` for **Pay Now** payment option.
     * - data-country
       - String
       - `ISO 3166 alpha-2  <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`__ country code for the shipping address.
@@ -154,24 +149,29 @@ Set ``data-hide-if-invalid`` to disable Postpay payment method in case it is not
           </li>
 
           <li>
-            <input id="postpay-payment-method" type="radio" name="payment-method" checked="checked">
+            <input type="radio" name="payment-method">
+            <label>Credit or Debit Card <img src="_static/images/postpay-pay-now.png"></label>
+
+            <div class="postpay-widget"
+                 data-type="payment-summary"
+                 data-amount="48000"
+                 data-currency="AED"
+                 data-num-instalments="1">
+            </div>
+          </li>
+
+          <li>
+            <input type="radio" name="payment-method" checked="checked">
             <label>Instalments with Postpay <img src="_static/images/logo.png"></label>
+
+            <div class="postpay-widget"
+                 data-type="payment-summary"
+                 data-amount="48000"
+                 data-currency="AED"
+                 data-num-instalments="4">
+            </div>
           </li>
         </ul>
-
-        <div
-          class="postpay-widget"
-          data-type="payment-summary"
-          data-amount="48000"
-          data-currency="AED"
-          data-num-instalments="4"
-        ></div>
-
-        <script>
-          $('input[name="payment-method"]').change(function() {
-            $('.postpay-widget').toggle($('#postpay-payment-method').is(':checked'));
-          }).change();
-        </script>
       </fieldset>
     </embed>
 

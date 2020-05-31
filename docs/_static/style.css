@@ -26,7 +26,8 @@ div.body h2,
 div.body h3,
 div.body h4,
 div.body h5,
-div.body h6 {
+div.body h6,
+strong {
   font-family: 'greycliff-bold';
 }
 
@@ -130,11 +131,11 @@ code {
 }
 
 div#searchbox h3 {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 div.sphinxsidebar ul ul {
-    list-style: circle;
+  list-style: circle;
 }
 
 @media screen and (max-width: 1008px) {
@@ -154,7 +155,7 @@ div.sphinxsidebar ul ul {
 table.docutils,
 table.docutils td,
 table.docutils th {
-    border: none;
+  border: none;
 }
 
 table.docutils tr:nth-child(odd) > td {
@@ -165,20 +166,27 @@ table.docutils tr:nth-child(even) > td {
   background-color: #fdfdfd;
 }
 
-#payment-summary .postpay-widget,
-#payment-summary .payment-method {
-  width: 70%;
+.payment-method {
+  width: 80%;
   margin: 0 auto;
 }
 
-#payment-summary .payment-method li {
+.payment-method li {
   list-style: none;
 }
 
-#payment-summary .payment-method img {
+.payment-method label img {
   vertical-align: middle;
   margin: -2px 0 0 .5em;
   max-width: 50px;
+}
+
+.payment-method input:checked ~ .postpay-widget {
+  display: block;
+}
+
+.payment-method .postpay-widget {
+  display: none;
 }
 
 .btn-postpay {
