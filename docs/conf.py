@@ -54,7 +54,7 @@ html_sidebars = {
 }
 
 html_js_files = [
-    'https://cdn.postpay.io/v1/js/postpay.js',
+    ('https://cdn.postpay.io/v1/js/postpay.js', {'async': 'async'}),
 ]
 
 html_context = {

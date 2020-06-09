@@ -4,13 +4,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 <script>
-  jQuery(document).ready(
-    function($) {
-      postpay.init({
-        merchantId: '{{ merchant_id }}',
-        sandbox: true
-      });
-    }
-  );
+  window.postpayAsyncInit = function() {
+    postpay.init({
+      merchantId: '{{ merchant_id }}',
+      sandbox: true
+    });
+  };
 </script>
 {% endblock %}
