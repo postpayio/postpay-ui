@@ -10,7 +10,8 @@ Add the Postpai SDK by including the following script in the ``<body>`` section:
         postpay.init({
           merchantId: '{merchantId}',
           sandbox: false,
-          theme: 'light'
+          theme: 'light',
+          locale: 'en'
         });
       };
     </script>
@@ -33,5 +34,8 @@ Add the Postpai SDK by including the following script in the ``<body>`` section:
     * - theme
       - String
       - The client handler, options are ``light`` and ``dark``. Default: ``light``.
+    * - locale
+      - String
+      - The locale code, options are ``en`` (English) and ``ar`` (Arabic). Default: Postpay detects the locale of the browser.
 
 A trailing exclamation mark❗is used to denote a field that uses a Non‐Null type. By default, all types are nullable.

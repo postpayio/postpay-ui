@@ -14,7 +14,8 @@ The element attributes determine which component displays:
          data-type="product"
          data-amount="{amount}"
          data-currency="{currency}"
-         data-num-instalments="{numInstalments}">
+         data-num-instalments="{numInstalments}"
+         data-locale="en">
     </div>
 
 .. list-table::
@@ -33,6 +34,9 @@ The element attributes determine which component displays:
     * - data-num-instalments
       - Integer
       - The number of instalments. Postpay sets an **optimal number of instalments** by default.
+    * - locale
+      - String
+      - The locale code, options are ``en`` (English) and ``ar`` (Arabic). Default: the value defined in the [initialization](quickstart).
 
 .. raw:: html
 
@@ -61,7 +65,8 @@ The element attributes determine which component displays:
          data-type="cart"
          data-amount="{amount}"
          data-currency="{currency}"
-         data-num-instalments="{numInstalments}">
+         data-num-instalments="{numInstalments}"
+         data-locale="en">
     </div>
 
 .. list-table::
@@ -80,6 +85,9 @@ The element attributes determine which component displays:
     * - data-num-instalments
       - Integer
       - The number of instalments. Postpay sets an **optimal number of instalments** by default.
+    * - locale
+      - String
+      - The locale code, options are ``en`` (English) and ``ar`` (Arabic). Default: the value defined in the [initialization](quickstart).
 
 .. raw:: html
 
@@ -110,7 +118,8 @@ Set ``data-hide-if-invalid`` to disable Postpay payment method in case it is not
          data-currency="{currency}"
          data-num-instalments="{numInstalments}"
          data-country="{country}"
-         data-hide-if-invalid="{selector}">
+         data-hide-if-invalid="{selector}"
+         data-locale="en">
     </div>
 
 .. list-table::
@@ -135,6 +144,9 @@ Set ``data-hide-if-invalid`` to disable Postpay payment method in case it is not
     * - data-hide-if-invalid
       - String
       - CSS selector to hide the HTML elements if Postpay payment method is not available for this cart.
+    * - locale
+      - String
+      - The locale code, options are ``en`` (English) and ``ar`` (Arabic). Default: the value defined in the [initialization](quickstart).
 
 .. raw:: html
 
