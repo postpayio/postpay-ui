@@ -1,7 +1,7 @@
 Quickstart
 ==========
 
-Add the Postpai SDK by including the following script in the ``<body>`` section:
+Add the Postpay SDK by including the following script in the ``<body>`` section:
 
 .. code-block:: html
 
