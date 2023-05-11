@@ -12,6 +12,7 @@ The element attributes determine which component displays:
 
     <div class="postpay-widget"
          data-type="product"
+         data-environment="prod"
          data-amount="{amount}"
          data-currency="{currency}"
          data-num-instalments="{numInstalments}"
@@ -63,6 +64,7 @@ The element attributes determine which component displays:
 
     <div class="postpay-widget"
          data-type="cart"
+         data-environment="prod"
          data-amount="{amount}"
          data-currency="{currency}"
          data-num-instalments="{numInstalments}"
@@ -114,6 +116,7 @@ Set ``data-hide-if-invalid`` to disable Postpay payment method in case it is not
 
     <div class="postpay-widget"
          data-type="payment-summary"
+         data-environment="prod"
          data-amount="{amount}"
          data-currency="{currency}"
          data-num-instalments="{numInstalments}"
