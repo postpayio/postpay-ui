@@ -48,7 +48,7 @@ The element attributes determine which component displays:
              data-type="product"
              data-amount="24000"
              data-currency="AED"
-             data-num-instalments="4">
+             data-num-instalments="3">
         </div>
       </fieldset>
     </embed>
@@ -100,7 +100,7 @@ The element attributes determine which component displays:
              data-type="cart"
              data-amount="48000"
              data-currency="AED"
-             data-num-instalments="4">
+             data-num-instalments="3">
         </div>
       </fieldset>
     </embed>
@@ -183,7 +183,7 @@ Set ``data-hide-if-invalid`` to disable Postpay payment method in case it is not
                  data-type="payment-summary"
                  data-amount="48000"
                  data-currency="AED"
-                 data-num-instalments="4">
+                 data-num-instalments="3">
             </div>
           </li>
         </ul>
