@@ -195,13 +195,13 @@ table.docutils tr:nth-child(even) > td {
   font-weight: bold;
   font-family: 'greycliff-bold';
   width: 60%;
-  background-color: #8bbbd5;
+  background-color: #00DFFF;
   color: white;
   border-radius: 5px;
   border-width: 1px;
   border-style: solid;
   border-image: initial;
-  border-color: #8bbbd5;
+  border-color: #00DFFF;
   padding: 13px 15px;
   margin: auto;
   display: block;
